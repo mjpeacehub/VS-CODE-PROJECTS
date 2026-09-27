@@ -6,7 +6,7 @@
   "scripts": {
     "tests": "npx playwright test",
     "test:specific": "npx playwright test --grep playwrightInro.spec.js",
-    "test:tag": "npx playwright test --grep @test1",
+    "test:tag": "npx playwright test --grep @env-test",
     "report": "npx playwright show-report"
   },
   "keywords": [],
