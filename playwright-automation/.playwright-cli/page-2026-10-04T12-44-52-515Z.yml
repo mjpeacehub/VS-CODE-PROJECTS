@@ -1,0 +1,85 @@
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e10]: Secure checkout
+        - generic [ref=e13]:
+          - text: Program
+          - paragraph [ref=e14]:
+            - link "Test Automation with Selenium" [ref=e15] [cursor=pointer]:
+              - /url: https://www.cydeo.com
+      - generic [ref=e17]:
+        - link [ref=e18] [cursor=pointer]:
+          - /url: https://cydeo.com
+        - link "Terms and conditions" [ref=e20] [cursor=pointer]:
+          - /url: https://cydeo.com/terms-conditions/
+        - link "Privacy Policy" [ref=e21] [cursor=pointer]:
+          - /url: https://cydeo.com/privacy-policy/
+        - link "Disclaimer" [ref=e22] [cursor=pointer]:
+          - /url: https://cydeo.com/disclaimer/
+        - link "Cookie Policy" [ref=e23] [cursor=pointer]:
+          - /url: https://cydeo.com/cookie-policy/
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "1"
+          - generic [ref=e29]: Start Application
+        - generic [ref=e32]:
+          - generic [ref=e33]: "2"
+          - generic [ref=e34]: Payment plan
+        - generic [ref=e36]:
+          - generic [ref=e37]: "3"
+          - generic [ref=e38]: Review
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e44]:
+            - paragraph [ref=e46]: Test Automation with Selenium
+            - generic [ref=e48]:
+              - text: $400
+              - generic [ref=e49]: $500
+            - generic [ref=e50]:
+              - paragraph [ref=e51]: Save $100 when you pay upfront
+              - paragraph [ref=e52]: Flexible payments plan available
+            - generic [ref=e53]: Program Start Date Apr 10, 2025
+            - generic [ref=e55]: 100% refund policy until May 11, 2025
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Enter personal details
+            - generic [ref=e61]:
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - text: First Name
+                  - generic [aria-hidden] [ref=e68]: "*"
+                - textbox "First Name" [ref=e70]: John
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - text: Last Name
+                  - generic [aria-hidden] [ref=e78]: "*"
+                - textbox "Last Name" [ref=e80]: Doe
+            - generic [ref=e82]:
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - text: Email Address
+                  - generic [aria-hidden] [ref=e89]: "*"
+                - textbox "Email Address" [ref=e91]: john.doe@example.com
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - text: Phone
+                  - generic [aria-hidden] [ref=e99]: "*"
+                - textbox "Phone" [ref=e101]: "1234567890"
+            - generic [ref=e108] [cursor=pointer]:
+              - generic: How did you hear about us?
+              - combobox "How did you hear about us?" [expanded] [active] [ref=e111]
+          - button "Next" [ref=e121] [cursor=pointer]
+        - generic [ref=e122]:
+          - separator [ref=e123]
+          - paragraph [ref=e124]: Need help? Contact us at enrollment@cydeo.com
+  - listbox "How did you hear about us?" [ref=e128]:
+    - option "Select One" [ref=e129] [cursor=pointer]
+    - option "Email" [ref=e131] [cursor=pointer]
+    - option "Facebook" [ref=e133] [cursor=pointer]
+    - option "Google" [ref=e135] [cursor=pointer]
+    - option "Instagram" [ref=e137] [cursor=pointer]
+    - option "LinkedIN" [ref=e139] [cursor=pointer]
+    - option "Twitter" [ref=e141] [cursor=pointer]
+    - option "Referred by a friend or colleague" [ref=e143] [cursor=pointer]
+    - option "Other" [ref=e145] [cursor=pointer]

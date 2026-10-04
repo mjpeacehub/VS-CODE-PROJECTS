@@ -1,0 +1,59 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - paragraph [ref=e10]: Secure checkout
+      - generic [ref=e13]:
+        - text: Program
+        - paragraph [ref=e14]:
+          - link "Test Automation with Selenium" [ref=e15] [cursor=pointer]:
+            - /url: https://www.cydeo.com
+    - generic [ref=e17]:
+      - link [ref=e18] [cursor=pointer]:
+        - /url: https://cydeo.com
+      - link "Terms and conditions" [ref=e20] [cursor=pointer]:
+        - /url: https://cydeo.com/terms-conditions/
+      - link "Privacy Policy" [ref=e21] [cursor=pointer]:
+        - /url: https://cydeo.com/privacy-policy/
+      - link "Disclaimer" [ref=e22] [cursor=pointer]:
+        - /url: https://cydeo.com/disclaimer/
+      - link "Cookie Policy" [ref=e23] [cursor=pointer]:
+        - /url: https://cydeo.com/cookie-policy/
+  - generic [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: "1"
+        - generic [ref=e29]: Start Application
+      - generic [ref=e32]:
+        - generic [ref=e33]: "2"
+        - generic [ref=e34]: Payment plan
+      - generic [ref=e36]:
+        - generic [ref=e37]: "3"
+        - generic [ref=e38]: Review
+    - text: "* * * *"
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - paragraph [ref=e151]: Choose a payment plan
+        - generic [ref=e152]:
+          - button "Upfront $500 $400 pay once electric_bolt $100 Upfront discount Coupons available" [ref=e155] [cursor=pointer]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: Upfront
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]: $500
+                  - generic [ref=e162]: $400 pay once
+                - generic [ref=e167]:
+                  - generic [ref=e168]: electric_bolt
+                  - text: $100 Upfront discount
+                - generic [ref=e169]: Coupons available
+          - button "5 Installments $100 per month Coupons available" [ref=e175] [cursor=pointer]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: 5 Installments
+              - generic [ref=e179]:
+                - generic [ref=e180]: $100 per month
+                - generic [ref=e181]: Coupons available
+      - generic [ref=e185]:
+        - generic [ref=e186]: Back
+        - button "Next" [disabled] [ref=e187]
+      - generic [ref=e188]:
+        - separator [ref=e189]
+        - paragraph [ref=e190]: Need help? Contact us at enrollment@cydeo.com
