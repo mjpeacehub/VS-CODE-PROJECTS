@@ -1,0 +1,37 @@
+{
+  "name": "spartan-e2e-automation",
+  "version": "1.0.0",
+  "description": "Enterprise UI E2E test automation framework for Spartan Web Application using Playwright and TypeScript with Page Object Model (POM) and TDD.",
+  "scripts": {
+    "test": "playwright test --project=api --project=chromium",
+    "test:all": "playwright test",
+    "test:api": "playwright test --grep @api --project=api",
+    "test:ui": "playwright test --grep @ui --project=chromium",
+    "test:headed": "playwright test --grep @ui --project=chromium --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --grep @ui --project=chromium",
+    "test:firefox": "playwright test --grep @ui --project=firefox",
+    "test:webkit": "playwright test --grep @ui --project=webkit",
+    "test:report": "playwright show-report",
+    "test:summary": "cat test-results/execution-summary.md",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "e2e",
+    "testing",
+    "tdd",
+    "page-object-model",
+    "spartan"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.13.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.3"
+  }
+}
